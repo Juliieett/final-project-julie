@@ -1,0 +1,80 @@
+.signup {
+    max-width: 400px;
+    margin: 50px auto; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(183, 79, 79, 0.567);
+    text-align: center; 
+
+}
+
+.signup h2 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.signup form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+
+.signup input {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+}
+
+.signup input:focus {
+    outline: none;
+    border-color: #555;
+}
+
+
+.signup button.signup-button[type="submit"] {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #e16464;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.signup button.signup-button[type="submit"]:hover {
+    background-color: #333;
+}
+
+
+.signup button.signup-button[type="button"].facebook {
+    background-color: #254792; 
+    color: white;
+}
+
+.signup button.signup-button[type="button"].facebook:hover {
+    background-color: #2d4373; 
+}
+
+
+.signup button.signup-button[type="button"].gmail {
+    background-color: #dd3972; 
+    color: white;
+}
+
+.signup button.signup-button[type="button"].gmail:hover {
+    background-color: #51c979; 
+}
+
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+}
